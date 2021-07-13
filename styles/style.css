@@ -4,6 +4,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 /* ----------------------
 banner-style-start
@@ -20,7 +21,7 @@ banner-style-start
 .banner-heading{
     
     border: 1px solid#2D25A0;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     
 }
@@ -43,3 +44,30 @@ button{
  /*-------------------
   banner-style-end
  ------------------- */
+
+ /*-------------------
+  player-info-style-start
+  --------------------- */
+ .all-players{
+     display: flex;
+     justify-content: center;
+     margin-top: 70px;
+ }
+ .players{
+     width: 1050px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-row-gap: 27px;
+     border: 2px solid whitesmoke;
+ }
+ .player{
+     width: 330px;
+     height: 450px;
+     border: 1px solid snow;
+ }
+ .player img{
+     width: 300px;
+ }
+ /*-------------------
+  player-info-style-end
+  --------------------- */
