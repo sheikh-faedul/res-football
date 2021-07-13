@@ -1,0 +1,35 @@
+
+
+.banner{
+    background-color:  #2D25A0;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ 
+.banner-heading{
+    
+    border: 1px solid#2D25A0;
+    font-size: 50px;
+    color: white;
+    
+}
+.banner-img img{
+    width: 70%;
+    height: 400px;
+    width: 500px;
+    
+    
+}
+button{
+    background-color: 
+    #E02C6D;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+    
+}
+ 
