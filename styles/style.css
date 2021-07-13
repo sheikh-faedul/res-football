@@ -1,5 +1,13 @@
 
+/* font-style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------------------
+banner-style-start
+------------------ */
 .banner{
     background-color:  #2D25A0;
     height: 500px;
@@ -32,4 +40,6 @@ button{
     margin: 20px;
     
 }
- 
+ /*-------------------
+  banner-style-end
+ ------------------- */
