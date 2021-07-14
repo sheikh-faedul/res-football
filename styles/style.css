@@ -25,6 +25,10 @@ banner-style-start
     color: white;
     
 }
+.banner:hover .banner-img{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
 .banner-img img{
     width: 70%;
     height: 400px;
@@ -39,6 +43,7 @@ button{
     font-size: 20px;
     padding: 5px;
     margin: 20px;
+    display: inline-block;
     
 }
  /*-------------------
@@ -63,10 +68,15 @@ button{
  .player{
      width: 330px;
      height: 450px;
-     border: 1px solid snow;
+     padding-left: 10px;
+     border: 1px solid white;
+     box-align: center;
+     box-shadow: 5px 5px 5px rgba(245, 245, 245, 0.822);
+     
  }
  .player img{
      width: 300px;
+     border-radius: 10px;
  }
  /*-------------------
   player-info-style-end
@@ -75,9 +85,18 @@ button{
     
       display: flex;
       justify-content: center;
-      align-items: center;}
+      align-items: center;
+      flex-direction: column;
+    
+
+      
+    }
   .fot-logo{
     width: 400px;
     height: 220px;
     border: 1px solid white;
   }
+.fot-logo img{
+    width: 90%;
+    padding-top: 80px;
+}
